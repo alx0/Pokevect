@@ -27,11 +27,8 @@ void Pokevect::assign( int value , int position ) {
 
 void Pokevect::print( ) {
 
-	for ( int i = 0 ; i <= size_v ; i++ ) {
-
+	for ( int i = 0 ; i <= size_v ; i++ )
 		cout << v[i] << " " ;
-
-	}
 
 	cout << endl ;
 
